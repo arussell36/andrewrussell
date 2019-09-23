@@ -118,13 +118,53 @@
 }
 
 
+/* FORM STYLES */
+
+.formcontainer {
+    width: 100%;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+.inputsizing {
+    width: 100%;
+    margin-bottom: 16px;
+    position: relative;
+    z-index: 1;
+  }
+
+.contacttitle {
+    display: block;
+    font-size: 20px;
+    line-height: 1.1;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+.contactsizing {
+    width: 550px;
+    background: transparent;
+    padding: 4rem 0 4rem 0;
+  }
+
+.contactbox {
+    position: relative;
+    display: flex;
+    width: 100%;
+    background: #fff;
+    font-size: 18px;
+    color: #8f8fa1;
+    line-height: 1.1;
+  }
+
+  
+
 /* FOOTER STYLES */
 .footlay {
     display: flex;
     justify-content: center;
     /* border-style: solid; */
-}
-
-.tableheaders {
-    padding: 1.5rem;
 }

@@ -82,7 +82,7 @@
 
 .bodylay {
     /* border-style: solid; */
-    padding: 7rem 26.5rem 0rem 26.5em;
+    padding: 5rem 26.5rem 5rem 26.5em;
 }
 .tablelay {
     display: flex;
@@ -164,7 +164,20 @@
 
 /* FOOTER STYLES */
 .footlay {
-    display: flex;
-    justify-content: center;
+    border-top-style: groove;
+    margin: 0rem 8.5rem 0rem 8.5rem;
+    /* background-color: salmon; */
+    padding: .5rem 18rem 0rem 18rem;
     /* border-style: solid; */
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.linkpics {
+    height: 1.5rem;
+    padding-right: .5rem;
 }

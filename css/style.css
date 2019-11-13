@@ -4,7 +4,8 @@
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-    align-items: center;
+
+    
 }
 
 /* FONTS */
@@ -101,6 +102,15 @@
 .container {
     position: relative;
     background-color: black;
+    width: 13vw;
+    height: 20vw;
+}
+
+.containerWeather {
+    position: relative;
+    background-color: black;
+    width: 13vw;
+    height: 20vw;
 }
 
 .textoverlay {
@@ -118,6 +128,12 @@
 
 .portpic {
     width: 13vw;
+    opacity: .6;
+    float: right;
+}
+
+.weatherPic {
+    width: 5vw;
     opacity: .6;
     float: right;
 }

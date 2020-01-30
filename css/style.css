@@ -1,4 +1,12 @@
-/* COLOR PALETTE */
+/*  COLOR PALETTE
+1b262c
+0f4c75
+3282b8
+bbe1fa 
+*/
+
+
+/* BACKGROUND COLORS */
 
 .bg1 {
   background-color: #1b1b1b; 
@@ -6,17 +14,14 @@
 .bg2 {
   background-color: #16242c;
 }
+.bg3{
+  background-color: #565656;
+}
 .fc1 {
   color: #bbe1fad2;
 }
 .fc2 {
   color: #8a8a8a;
-}
-.bgr1 {
-background: linear-gradient(#16242c, #1b1b1b);
-}
-.bgr2 {
-background: linear-gradient(#1b1b1b, #16242c);
 }
 
 
@@ -59,10 +64,10 @@ background: linear-gradient(#1b1b1b, #16242c);
   padding-right: 3vw;
 }
 .hC {
-  height: 85vh;
+  height: 84vh;
 }
 .con1 {
-  height: 20vh;
+  height: 15vh;
 }
 .con2 {
   height: 30vh;

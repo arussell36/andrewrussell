@@ -143,10 +143,10 @@ bbe1fa
   text-align: left;
   list-style: none;
   -webkit-animation-name: switch;
-  -webkit-animation-duration: 35s;
+  -webkit-animation-duration: 28s;
   -webkit-animation-iteration-count: infinite;
   animation-name: switch;
-  animation-duration: 35s;
+  animation-duration: 28s;
   animation-iteration-count: infinite;
 }
 .aniLI {

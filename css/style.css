@@ -23,6 +23,10 @@ bbe1fa
 .fc2 {
   color: #8a8a8a;
 }
+.fc3 {
+  color: #ecf0f1;
+}
+
 
 
 
@@ -37,12 +41,19 @@ bbe1fa
 .raleway {
   font-family: 'Raleway', sans-serif;
 }
+.saira {
+  font-family: 'Saira', sans-serif;
+}
 .b {
   font-weight: bold;
 }
 .u {
   text-decoration: underline;
 }
+.fS1 {
+  font-size: 6vh;
+}
+
 
 
 
@@ -64,13 +75,20 @@ bbe1fa
   padding-right: 3vw;
 }
 .hC {
-  height: 84vh;
+  height: 90vh;
 }
-.con1 {
-  height: 15vh;
+.nav2 {
+  position: sticky;
+  top: 0px;
+  height: 25vh;
+  padding-left: 3vw;
 }
 .con2 {
-  height: 30vh;
+  height: 120vh;
+}
+.portfolio {
+  position: absolute;
+  bottom: 0vh;
 }
 
 

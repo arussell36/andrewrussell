@@ -53,6 +53,9 @@ bbe1fa
 .fS1 {
   font-size: 6vh;
 }
+.fS2 {
+  font-size: 3vh;
+}
 
 
 
@@ -74,21 +77,43 @@ bbe1fa
   justify-content: space-between;
   padding-right: 3vw;
 }
+.portL {
+  position: absolute;
+  right: 3vh;
+  bottom: 0vh;
+  display: flex;
+  flex-direction: row;
+}
 .hC {
   height: 90vh;
 }
 .nav2 {
   position: sticky;
   top: 0px;
-  height: 25vh;
+  height: 20vh;
   padding-left: 3vw;
+  display: flex;
+  justify-content: space-between;
+}
+.con1 {
+  height: 87vh;
+  padding-top: 5vh;
+  background-color: yellow;
 }
 .con2 {
-  height: 120vh;
+  height: 25vh;
+  background-color: green;
 }
-.portfolio {
+.con3 {
+  padding: .2vh .3vw .2vh .3vw;
+}
+.port {
   position: absolute;
   bottom: 0vh;
+}
+.foot {
+  height: 7vh;
+  background-color: green;
 }
 
 

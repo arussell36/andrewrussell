@@ -14,8 +14,11 @@ bbe1fa
 .bg2 {
   background-color: #16242c;
 }
-.bg3{
+.bg3 {
   background-color: #565656;
+}
+.bg4 {
+  background-color: #3282b8;
 }
 .fc1 {
   color: #bbe1fad2;
@@ -85,35 +88,46 @@ bbe1fa
   flex-direction: row;
 }
 .hC {
-  height: 90vh;
+  height: 89vh;
 }
 .nav2 {
   position: sticky;
   top: 0px;
-  height: 20vh;
+  height: 16vh;
   padding-left: 3vw;
   display: flex;
   justify-content: space-between;
 }
 .con1 {
   height: 87vh;
-  padding-top: 5vh;
-  background-color: yellow;
+  padding-top: 6vh;
 }
 .con2 {
   height: 25vh;
-  background-color: green;
 }
 .con3 {
   padding: .2vh .3vw .2vh .3vw;
+}
+.con4 {
+  display: inline-block;
+}
+.footlink {
+  height: 4vh;
+  width: 4vh;
+  border-radius: 8vh;
+  margin: 0 .25vw .75vh .25vw;
+}
+.footlink:hover {
+  box-shadow: 0 0 8px #3282b8;
 }
 .port {
   position: absolute;
   bottom: 0vh;
 }
 .foot {
-  height: 7vh;
-  background-color: green;
+  padding-top: 1.4vh;
+  height: 8vh;
+  text-align: center;
 }
 
 

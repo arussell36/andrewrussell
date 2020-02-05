@@ -118,7 +118,7 @@ bbe1fa
   margin: 0 .25vw .75vh .25vw;
 }
 .footlink:hover {
-  box-shadow: 0 0 8px #3282b8;
+  box-shadow: 0 0 10px #3282b8;
 }
 .port {
   position: absolute;

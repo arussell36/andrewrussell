@@ -20,6 +20,9 @@ bbe1fa
 .bg4 {
   background-color: #3282b8;
 }
+.bg5 {
+  background-color: #c2cacc;
+}
 .fc1 {
   color: #bbe1fad2;
 }
@@ -94,9 +97,9 @@ bbe1fa
   position: sticky;
   top: 0px;
   height: 16vh;
-  padding-left: 3vw;
   display: flex;
   justify-content: space-between;
+  box-shadow: 0px 2px 4px -2px black;
 }
 .con1 {
   height: 87vh;
@@ -118,11 +121,12 @@ bbe1fa
   margin: 0 .25vw .75vh .25vw;
 }
 .footlink:hover {
-  box-shadow: 0 0 10px #3282b8;
+  box-shadow: 0 0 10px 3px #3282b8;
 }
 .port {
   position: absolute;
   bottom: 0vh;
+  left: 3vw;
 }
 .foot {
   padding-top: 1.4vh;

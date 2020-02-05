@@ -50,6 +50,9 @@ bbe1fa
 .saira {
   font-family: 'Saira', sans-serif;
 }
+.lato {
+  font-family: 'Lato', sans-serif;
+}
 .b {
   font-weight: bold;
 }
@@ -103,7 +106,6 @@ bbe1fa
 }
 .con1 {
   height: 87vh;
-  padding-top: 6vh;
 }
 .con2 {
   height: 25vh;
@@ -113,6 +115,23 @@ bbe1fa
 }
 .con4 {
   display: inline-block;
+}
+.SC {
+  background-color: lightgray;
+  margin: 0 auto;
+  margin-top: 5vh;
+  height: 25vh;
+  width: 70%;
+  /* border: 2px solid black; */
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 1px gray;
+}
+.SC-H {
+  background-color: gray;
+  padding: 2vh 0 2vh 1.5vw;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  /* border-bottom: 2px solid black; */
 }
 .footlink {
   height: 4vh;

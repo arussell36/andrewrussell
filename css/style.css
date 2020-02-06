@@ -105,7 +105,7 @@ bbe1fa
   box-shadow: 0px 2px 4px -2px black;
 }
 .con1 {
-  height: 87vh;
+  height: 95vh;
 }
 .con2 {
   height: 25vh;
@@ -117,21 +117,54 @@ bbe1fa
   display: inline-block;
 }
 .SC {
-  background-color: lightgray;
+  background-color: rgb(224, 224, 224);
   margin: 0 auto;
   margin-top: 5vh;
-  height: 25vh;
+  /* height: 25vh; */
   width: 70%;
   /* border: 2px solid black; */
   border-radius: 10px;
   box-shadow: 2px 2px 5px 1px gray;
 }
 .SC-H {
-  background-color: gray;
-  padding: 2vh 0 2vh 1.5vw;
+  background-color: rgb(80, 80, 80);
+  padding: 1vh 0 1vh .75vw;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   /* border-bottom: 2px solid black; */
+}
+.SC-B {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.SC-B2 {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+}
+.SC-I {
+  height: 20vh;
+  padding: .5vh 0 0 0
+}
+.SC-I2 {
+  Height: 15vh;
+  padding-top: 3.5vh;
+}
+.SC-I3 {
+  Height: 15vh;
+  padding-top: 2.5vh;
+  padding-right: 1.5vw;
+}
+.SC-I4 {
+  Height: 4vh;
+  padding-top: 7vh;
+  padding-right: 3vw;
+}
+.SC-I5 {
+  Height: 20vh;
+  padding-top: 8vh;
+  padding: 0 2vw 0 .75vw;
 }
 .footlink {
   height: 4vh;

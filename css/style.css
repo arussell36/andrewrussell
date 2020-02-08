@@ -124,7 +124,7 @@ bbe1fa
   width: 70%;
   /* border: 2px solid black; */
   border-radius: 10px;
-  box-shadow: 2px 2px 5px 1px gray;
+  box-shadow: 4px 5px 5px 1px gray;
 }
 .SC-H {
   background-color: rgb(80, 80, 80);
@@ -136,12 +136,10 @@ bbe1fa
 .SC-B {
   display: flex;
   justify-content: space-between;
-  width: 100%;
 }
 .SC-B2 {
   display: flex;
   justify-content: start;
-  width: 100%;
 }
 .SC-I {
   height: 20vh;
